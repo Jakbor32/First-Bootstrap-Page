@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgba(175, 170, 170, 0.158);
+}
+
+#intro {
+    height: 100vh;
+    background-image: url(img/Hotel.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.navbar {
+    font-size: 1.5em;
+    background-color: bisque !important;
+
+}
+
+.navbar-brand {
+    font-size: 2em !important;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+    margin-right: 100px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.logo-text {
+    opacity: 0.5;
+    display: block;
+    transform: rotate(-5deg);
+
+
+
+}
+
+#navbarSupportedContent a {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+#navbarSupportedContent a:hover {
+    color: black;
+    opacity: 0.3;
+    transition: 0.2s ease;
+
+
+}
+
+li {
+    padding: 0 10px 0 10px;
+
+}
+
+#btn-book {
+    padding: 8px 20px 8px 20px;
+    font-weight: 800;
+}
+
+svg {
+    transform: rotate(-10deg);
+}
+
+h5 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2em;
+}
+
+h6 {
+    font-family: 'Mate SC', serif;
+    padding-left: 2em;
+    font-size: 2em;
+    color: #2b2121e5;
+}
+
+h2 {
+    font-size: 2em;
+    color: #2b2121e5;
+    font-family: 'Mate SC', serif;
+}
+
+#booknow {
+    font-weight: 600;
+
+}
+
+.book-now {
+    font-size: 3rem;
+    font-family: 'Mate SC', serif;
+    word-spacing: 1em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+}
+
+.accordion-button {
+    background-color: rgb(222, 222, 222);
+    margin-bottom: 0.5em;
+    font-size: 2rem;
+    border-radius: 0 0 30px 30px !important;
+}
+
+#feedback {
+    font-size: 3rem;
+}
+
+#checkbtn {
+    padding: 10px 40px 10px 40px;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+    font-family: 'Mate SC', serif;
+    text-decoration: none;
+}
+
+.footer-text h4 {
+
+    font-size: 2em;
+}
+
+.footer-text a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 450px) {
+    .book-now {
+        word-spacing: 0.5em;
+        letter-spacing: normal;
+    }
+
+}
